@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+     
+    <!-- First and last -->
+    <item android:state_first="true"
+          android:state_last="true">
+     
+        <shape>
+            <solid android:color="#63abed"/>
+            <corners android:radius="10dp"/>
+        </shape>
+         
+    </item>
+     
+    <!-- First -->
+    <item android:state_first="true">
+     
+        <shape>
+            <solid android:color="#63abed"/>
+            <corners android:topLeftRadius="10dp"
+                     android:bottomLeftRadius="10dp"/>
+        </shape>
+         
+    </item>
+     
+    <!-- Last -->
+    <item android:state_last="true">
+     
+        <shape>
+            <solid android:color="#63abed"/>
+            <corners android:topRightRadius="10dp"
+                     android:bottomRightRadius="10dp"/>
+        </shape>
+         
+    </item>
+     
+    <!-- Default -->
+    <item>
+     
+        <shape>
+            <solid android:color="#63abed"/>
+        </shape>
+         
+    </item>
+         
+</selector>

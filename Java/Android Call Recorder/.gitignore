@@ -1,0 +1,8 @@
+/gen/
+/libs/android-support-v4.jar
+/bin/classes/
+/bin/classes*
+/bin/dexedLibs/
+/bin/resources.ap_
+/bin/res/
+/bin/AndroidManifest.xml
