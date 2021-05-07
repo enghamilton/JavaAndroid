@@ -1,5 +1,8 @@
 Repository for Java sdk Android
 
+**Java done regardless _OF MEMORY LEAKES concern_ please review must be DONE**
+
+```
 import java.lang.ref.*;
 
 class Example {
@@ -26,3 +29,4 @@ public class Main
 		System.gc();
 	}
 }
+```
