@@ -5,6 +5,26 @@ Repository for Java sdk Android
 ```
 import java.lang.ref.*;
 
+class MainActivity extends Activity {
+
+private static TextView textView;
+
+...
+
+@Override
+public void onDestruct(){
+	super.onDestruct();
+	textView = null;
+	System.gc();
+}
+
+}
+```
+
+
+```
+import java.lang.ref.*;
+
 class Example {
     public Example() {
         
