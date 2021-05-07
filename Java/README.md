@@ -1,5 +1,11 @@
 Repository for Java sdk Android
 
+# Review needed for avoiding Memory Leaks
+## Hamilton Kamiya
+###### The Author Hamiton skipped WeakReference concern on this repository for practical examples purposes
+###### On a Professional those Java contents in this Repository must be reviewed for WeakReference 
+###### and Garbage Collector issues to avoid Memory Leaks
+
 **Java done regardless _OF MEMORY LEAKES concern_ please review must be DONE**
 
 ```
